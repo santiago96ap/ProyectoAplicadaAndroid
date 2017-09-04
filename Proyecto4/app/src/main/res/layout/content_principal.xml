@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.santi.proyecto4.principalActivity"
+    tools:showIn="@layout/activity_principal">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="573dp"
+        android:orientation="vertical"
+        tools:ignore="UselessLeaf"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="14dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="352dp"
+            android:layout_height="93dp"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/logoplicada"
+            android:contentDescription=""
+            tools:ignore="ContentDescription" />
+
+        <TextSwitcher
+            android:id="@+id/twProducts"
+            android:layout_width="348dp"
+            android:layout_height="205dp"
+            android:layout_margin="20dp" />
+
+        <ImageView
+            android:id="@+id/imgPREVIOUS"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            app:srcCompat="@drawable/prev"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imgNEXT"
+            android:layout_width="69dp"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            app:srcCompat="@drawable/next"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="© 2017, Gremlin Strore"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.santi.proyecto4.RegisterProductActivity"
+    tools:showIn="@layout/activity_register_product">
+
+    <LinearLayout
+        android:layout_width="388dp"
+        android:layout_height="599dp"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="276dp"
+            android:layout_height="79dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription=""
+            app:srcCompat="@drawable/logoplicada"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/etNameRegisterProduct"
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Name.."
+            android:inputType="textPersonName"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/etCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Category.."
+            android:inputType="textPersonName"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/etPriceRegisterProduct"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Price.."
+            android:inputType="number"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/etAmountRegisterProduct"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Quantity.."
+            android:inputType="number"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/etStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Status.."
+            android:inputType="textPersonName"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnRegisterProduct"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Register"
+            android:textColor="@android:color/background_light"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

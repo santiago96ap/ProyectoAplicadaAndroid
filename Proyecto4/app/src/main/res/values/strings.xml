@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Gremlin Store</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registrar_usuario">Registrar Usuario</string>
+    <string name="title_activity_principal">Página principal</string>
+    <string name="title_activity_menu_contacto">Menú Contactos</string>
+    <string name="title_activity_register_product">Registrar Producto</string>
+    <string name="s">Switch</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="categor_a">Categoría</string>
+    <string name="nombre">Nombre</string>
+    <string name="textview">TextView</string>
+    <string name="precio">precio</string>
+    <string name="esatdo_del_producto">Esatdo del producto</string>
+    <string name="registrar">Registrar</string>
+    <string name="title_activity_update_product">Actualizar Producto</string>
+    <string name="title_activity_search_product">Buscar Producto</string>
+    <string name="title_activity_search_products">Buscar Producto</string>
+    <string name="title_activity_update_products">Buscar Productos</string>
+    <string name="title_activity_delete_product">Eliminar Producto</string>
+    <string name="title_activity_update_user2">Actualizar Usuario</string>
+    <string name="title_activity_report_user">ReportUserActivity</string>
+    <string name="title_activity_report_procduct">ReportProcductActivity</string>
+</resources>
